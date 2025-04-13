@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - SereneMind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      scroll-behavior: smooth;
+    }
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    }
+    nav.scrolled {
+      background-color: #ffffffee;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="fixed w-full z-50 transition-all">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <i class="fas fa-spa text-teal-500 text-2xl"></i>
+        <span class="text-xl font-semibold text-teal-700">SereneMind 🌿</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-32 text-center px-4">
+    <div class="relative">
+      <h1 class="text-5xl md:text-7xl font-bold mb-4" data-aos="fade-up">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 font-extrabold tracking-tight">
+          About SereneMind 💙
+        </span>
+      </h1>
+      <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full" data-aos="fade-up" data-aos-delay="100"></div>
+    </div>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto mt-8" data-aos="fade-up" data-aos-delay="200">
+      Your journey to inner peace and mental well-being starts here. ✨
+    </p>
+  </section>
+
+  <!-- Mission -->
+  <section class="py-20 px-6 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div data-aos="fade-right">
+      <h2 class="text-3xl font-bold text-teal-700 mb-4">Our Mission 🌱</h2>
+      <p class="text-gray-600 mb-4 leading-relaxed">At SereneMind, we provide accessible tools to help you manage stress, anxiety, and improve mental health.</p>
+      <ul class="space-y-4">
+        <li class="flex items-start space-x-4">
+          <i class="fas fa-heart text-teal-500 text-2xl"></i>
+          <div>
+            <h3 class="font-semibold">Empowerment 💪</h3>
+            <p class="text-gray-600 text-sm">Helping individuals take control of their mental wellness.</p>
+          </div>
+        </li>
+        <li class="flex items-start space-x-4">
+          <i class="fas fa-hand-holding-heart text-teal-500 text-2xl"></i>
+          <div>
+            <h3 class="font-semibold">Accessibility 🌍</h3>
+            <p class="text-gray-600 text-sm">Resources for everyone, anytime, anywhere.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=700&q=80" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" alt="Meditation" data-aos="fade-left"/>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-gradient-to-b from-white to-teal-50 py-20 px-6">
+    <div class="text-center mb-12" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-teal-700 mb-4">Why Choose SereneMind? 🌟</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">We offer more than just advice — we offer transformation through innovative mental wellness solutions.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 max-w-7xl mx-auto">
+      <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="zoom-in">
+        <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+          <i class="fas fa-brain text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">Science-Based Techniques 🧠</h3>
+        <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">Backed by research and proven practices for effective mental wellness.</p>
+      </div>
+      <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="zoom-in" data-aos-delay="100">
+        <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+          <i class="fas fa-mobile-alt text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">User Friendly 📱</h3>
+        <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">Minimal design with maximum clarity and ease of use for everyone.</p>
+      </div>
+      <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="zoom-in" data-aos-delay="200">
+        <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+          <i class="fas fa-chart-line text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">Progress Tracking 📊</h3>
+        <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">Monitor your journey and stay motivated with our tracking tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="text-center mb-12" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-teal-700">Meet Our Team 👥</h2>
+      <p class="text-gray-600">The minds behind SereneMind</p>
+    </div>
+    <div class="grid md:grid-cols-4 gap-8">
+      <div class="bg-white rounded-xl shadow card-hover p-4 text-center" data-aos="fade-up">
+        <img class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sarah"/>
+        <h3 class="font-semibold text-teal-700">Sarah Johnson</h3>
+        <p class="text-gray-500">Founder & CEO</p>
+      </div>
+      <div class="bg-white rounded-xl shadow card-hover p-4 text-center" data-aos="fade-up" data-aos-delay="100">
+        <img class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Michael"/>
+        <h3 class="font-semibold text-teal-700">Michael Chen</h3>
+        <p class="text-gray-500">Chief Wellness Officer</p>
+      </div>
+      <div class="bg-white rounded-xl shadow card-hover p-4 text-center" data-aos="fade-up" data-aos-delay="200">
+        <img class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Emily"/>
+        <h3 class="font-semibold text-teal-700">Emily Rodriguez</h3>
+        <p class="text-gray-500">Mental Health Expert</p>
+      </div>
+      <div class="bg-white rounded-xl shadow card-hover p-4 text-center" data-aos="fade-up" data-aos-delay="300">
+        <img class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="David"/>
+        <h3 class="font-semibold text-teal-700">David Kim</h3>
+        <p class="text-gray-500">Community Outreach</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Information -->
+  <section class="py-16 px-6 bg-gradient-to-b from-white to-teal-50">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12" data-aos="fade-up">
+        <h2 class="text-3xl font-bold text-teal-700 mb-4">Want to Know More? 📬</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">Get in touch with us for more information about our services and how we can help you on your wellness journey.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="fade-up">
+          <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+            <i class="fas fa-envelope text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">Email Us 📧</h3>
+          <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">
+            <a href="mailto:info@serenemind.com" class="hover:underline">info@serenemind.com</a>
+          </p>
+        </div>
+        <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+            <i class="fas fa-phone text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">Call Us 📱</h3>
+          <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">
+            <a href="tel:+1234567890" class="hover:underline">(123) 456-7890</a>
+          </p>
+        </div>
+        <div class="group bg-white p-8 rounded-xl shadow-lg card-hover border border-teal-100 hover:border-teal-300 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex items-center justify-center h-20 w-20 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 text-teal-600 mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+            <i class="fas fa-map-marker-alt text-3xl group-hover:text-teal-700 transition-colors duration-300"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4 text-center group-hover:text-teal-700 transition-colors duration-300">Visit Us 📍</h3>
+          <p class="text-gray-600 text-center group-hover:text-teal-600 transition-colors duration-300">
+            123 Peace Street, Serenity City
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="flex flex-col items-center space-y-4">
+        <p class="text-lg font-semibold">© 2025 SereneMind 🌿 | All Rights Reserved ✨</p>
+        <div class="flex space-x-4 text-2xl">
+          <span>🌱</span>
+          <span>💫</span>
+          <span>🌟</span>
+          <span>🌺</span>
+          <span>🌸</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // AOS Initialization
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Navbar Scroll Effect
+    window.onscroll = function() { stickyNavbar() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNavbar() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    }
+  </script>
+</body>
+</html>
